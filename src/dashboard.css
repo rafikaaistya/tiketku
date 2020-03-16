@@ -1,0 +1,463 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .table {
+    position: absolute !important;
+    /* left: 100px; */
+    top: 250px;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .namakereta {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 90px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .berangkat {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 90px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .tiba {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 90px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .Durasi {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 90px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .hargaperorg {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 90px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .circle {
+    position: absolute;
+    left: 335px !important;
+    top: 65px !important;
+    width: 50px !important;
+    height: 35px !important;
+    color: #f53b6a;
+  }
+  
+  .transfericon {
+    position: absolute;
+    left: 335px !important;
+    top: 72px !important;
+    width: 50px !important;
+    height: 20px !important;
+    color: #ffffff;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 110px !important;
+    left: 280px;
+    width: 150px;
+  }
+  
+  .dropdownn {
+    position: absolute;
+    top: 110px !important;
+    left: 430px;
+    width: 150px;
+  }
+  
+  .dropdown1 {
+    position: absolute !important;
+    top: 25px !important;
+    left: 20px !important;
+    width: 100px !important;
+  }
+  
+  .dropdown2 {
+    position: absolute !important;
+    top: 25px !important;
+    left: 0px !important;
+    width: 150px !important;
+  }
+  
+  .buttoncaritiket {
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 580px;
+    top: 140px;
+    background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+    border-radius: 50px;
+    font-size: calc(10px + 2vmin);
+    color: #eeebe0;
+  }
+  
+  .form {
+    position: absolute;
+    top: 40px !important;
+    left: 30px;
+    width: 300px;
+  }
+  
+  .formm {
+    position: absolute;
+    top: 40px !important;
+    left: 390px;
+    width: 300px;
+  }
+  
+  .formmm {
+    position: absolute;
+    top: 110px !important;
+    left: 30px;
+    width: 150px;
+  }
+  
+  .formmmm {
+    position: absolute;
+    top: 110px !important;
+    left: 180px;
+    width: 150px;
+  }
+  
+  .tiket {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: -10px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #000000 !important;
+  }
+  
+  .App-header {
+    background-color: #ffffff;
+    position: absolute;
+    width: 1252px !important;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  .isii {
+    background-color: #ffffff;
+    position: absolute;
+    width: 1252px !important;
+    height: 700px;
+    left: 0px;
+    top: 300px;
+  }
+  
+  .icontrain {
+    position: absolute;
+    left: 75px !important;
+    top: 2px !important;
+    width: 50px !important;
+    height: 25px !important;
+    color: #f59e3b;
+  }
+  .card {
+    background-color: #ebe8e5 !important;
+    border-radius: 10px !important;
+    left: 14px;
+    top: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .cardd {
+    background-color: #ffffff !important;
+    border-radius: 10px !important;
+  
+    left: -10px;
+    width: 350px;
+    height: 200px;
+    top: 0px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .kai {
+    background-color: #ffffff;
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: -2px;
+    top: 20px;
+    font-size: 16px;
+    color: #0e0c0c;
+  }
+  
+  .isi {
+    background: linear-gradient(90deg, #ec7ab7 -0.6%, #ec7a7a 100%);
+    top: 50px;
+    /* background-image: url(/img/kereta-api.jpg); */
+    /* width: max-content; */
+    background-repeat: no-repeat !important;
+    height: 1100px;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(10px + 2vmin); */
+    color: #eeebe0;
+  }
+  
+  .buttonregister {
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 970px;
+    top: 10px;
+    background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+    border-radius: 50px;
+    font-size: calc(10px + 2vmin);
+    color: #eeebe0;
+  }
+  
+  .buttonlogin {
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 1100px;
+    top: 10px;
+  
+    background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+    border-radius: 50px;
+  
+    font-size: calc(10px + 2vmin);
+    align-items: center;
+    text-align: center;
+    color: #eeebe0;
+  }
+  
+  .buttonloginn {
+    width: 100%;
+    height: 49px;
+    left: 56px;
+    top: 484px;
+  
+    background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+    border-radius: 50px !important;
+  }
+  
+  .buttonregisterr {
+    width: 100%;
+    height: 49px;
+    left: 56px;
+    top: 484px;
+    background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+    border-radius: 50px !important;
+  }
+  
+  .textlore {
+    width: 430px;
+    height: 80px;
+    left: 50px;
+    top: 80px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 50px !important;
+    /* line-height: 64px; */
+  
+    /* identical to box height */
+    align-items: center !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+  
+    color: #0e0c0c;
+  }
+  
+  .iconn {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 90px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .iconnn {
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    left: 10px;
+    top: 115px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .icon {
+    position: absolute;
+    width: 330px;
+    height: 64px;
+    left: 40px;
+    top: 10px;
+  
+    font-family: Opticon;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 64px;
+  
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #ec6c96;
+  }
+  
+  .bottom {
+    position: absolute;
+    width: 1250px;
+    height: 48px;
+    left: 0px;
+    top: 512px;
+  
+    background: linear-gradient(180deg, #ec7a7a 0%, #ec7ab7 100%);
+  
+    font-family: Avenir;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
